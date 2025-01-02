@@ -6,7 +6,7 @@ const app = express();
 const port = 5000; // Change if needed
 
 // Shopify API Configuration
-const SHOPIFY_ACCESS_TOKEN = process.env.SHOPIFY_ACCESS_TOKEN;
+SHOPIFY_ACCESS_TOKEN="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";
 const SHOPIFY_API_URL = "https://check150.myshopify.com/admin/api/2023-01/metafields.json";
 
 // Middleware
